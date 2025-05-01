@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mis Álbumes Musicales</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #121212, #292941);
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: #1e1e30;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      border-bottom: 2px solid #444;
+      padding-bottom: 0.5rem;
+      margin-top: 3rem;
+    }
+
+    .album {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    .track {
+      background: #2e2e4d;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .track h3 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.2rem;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: #aaa;
+      font-size: 0.9rem;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mis Álbumes</h1>
+  <p>Escucha tus canciones favoritas</p>
+</header>
+
+<main class="album">
+  <h2>Álbum 1 - "prendas locas" (2025)</h2>
+
+  <!-- 12 canciones del primer álbum -->
+  <!-- Solo cambia los nombres de archivo y títulos -->
+  <div class="track"><h3>01. El pantalon triste</h3><audio controls><source src="album1/El pantalon triste.mp3" type="audio/mp3"></audio></div>
+  <div class="track"><h3>02. El calson feliz</h3><audio controls><source src="album1/cancion2.mp3" type="audio/mp3"></audio></div>
+  <div class="track"><h3>03. La camisa nerviosa</h3><audio controls><source src="album1/cancion3.mp3" type="audio/mp3"></audio></div>
+  <div class="track"><h3>04. Media buscando su media naranja</h3><audio controls><source src="album1/cancion4.mp3" type="audio/mp3"></audio></div>
+  <div class="track"><h3>05. La gorra 1950</h3><audio controls><source src="album1/cancion5.mp3" type="audio/mp3"></audio></div>
+  <div class="track"><h3>06. Anteojos para ver el mundo</h3><audio controls><source src="album1/cancion6.mp3" type="audio/mp3"></audio></div>
+  <div class="track"><h3>07. Pelea en las pronfundidades</h3><audio controls><source src="album1/cancion7.mp3" type="audio/mp3"></audio></div>
+  <div class="track"><h3>08. La buanda enojada</h3><audio controls><source src="album1/cancion8.mp3" type="audio/mp3"></audio></div>
+  <div class="track"><h3>09. Zapatillas eternas</h3><audio controls><source src="album1/cancion9.mp3" type="audio/mp3"></audio></div>
+  <div class="track"><h3>10. Guantes obreros</h3><audio controls><source src="album1/cancion10.mp3" type="audio/mp3"></audio></div>
+  <div class="track"><h3>11. Lluvia</h3><audio controls><source src="album1/cancion11.mp3" type="audio/mp3"></audio></div>
+  <div class="track"><h3>12. pelea de la discordia</h3><audio controls><source src="album1/cancion12.mp3" type="audio/mp3"></audio></div>
+
+  <h2>Álbum 2 - "me pica el an0 (demo)" (2025)</h2>
+
+  <!-- Empieza con 2 canciones, puedes agregar más fácilmente copiando los bloques -->
+  <div class="track"><h3>01. Despertar</h3><audio controls><source src="album2/cancion1.mp3" type="audio/mp3"></audio></div>
+
+  <!-- Aquí puedes seguir pegando más canciones para el Álbum 2 -->
+
+</main>
+
+<footer>
+  © 2025 Tu Nombre - Todos los derechos reservados
+</footer>
+
+</body>
+  </html>
